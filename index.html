@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hokey Club BD</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+    </style>
+
+</head>
+
+<body class="bg-white">
+
+
+    <header class="container mx-auto">
+
+        <nav class="container mx-auto">
+            <div class="navbar bg-base-100 mx-auto">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li><a>Item 1</a></li>
+                            <li>
+                                <a>Parent</a>
+                                <ul class="p-2">
+                                    <li><a>Submenu 1</a></li>
+                                    <li><a>Submenu 2</a></li>
+                                </ul>
+                            </li>
+                            <li><a>Item 3</a></li>
+                        </ul>
+                    </div>
+                    <a class="btn btn-ghost text-xl">daisyUI</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Item 1</a></li>
+                        <li>
+                            <details>
+                                <summary>Parent</summary>
+                                <ul class="p-2">
+                                    <li><a>Submenu 1</a></li>
+                                    <li><a>Submenu 2</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li><a>Item 3</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <a class="btn">Button</a>
+                </div>
+            </div>
+        </nav>
+        <!-- first sliders -->
+
+        <div class="container mx-auto rounded-3xl pb-12">
+            <div class="carousel">
+                <div id="slide1" class="carousel-item relative">
+                    <img src="images/1.png" class="w-[1280px] h-[400px]"/>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative">
+                    <img src="images/4.png" class="w-[1280px] h-[400px]" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative">
+                    <img src="images/2.png" class="w-[1280px] h-[400px]" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide4" class="carousel-item relative">
+                    <img src="images/3.png" class="w-[1280px] h-[400px]" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex justify-end  ">
+                <div
+                    class="bg-[#2928281f] h-36 w-5/12 text-justify absolute -mt-40 mr-10 rounded-2xl p-4 space-y-3 text-black shadow-xl shadow-blue-300">
+                    <h1 class="text-2xl font-extrabold">
+                        Meet all the heroes from the field
+                    </h1>
+                    <p> "Hokey, a lively sport on ice, demands skill, teamwork, and precision. Sliding pucks, swift
+                        skaters, and intense competition characterize hokey games."
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto">
+        <div class="text-black text-center w-6/12 mx-auto space-y-5 p-5">
+            <h1 class="text-3xl font-bold">Professional Hockeys Club</h1>
+            <p>"Join our dynamic hokey club! Embrace the thrill of the ice, develop skills, forge lasting friendships,
+                and score unforgettable memories together."</p>
+        </div>
+
+        <!--   Radial progress sec  -->
+        <div class="py-10 flex justify-between gap-6">
+
+            <div
+                class="space-y-2 text-black w-4/12 text-center hover: shadow-xl hover:shadow-blue-300 p-5 cursor-pointer">
+                <div class="radial-progress text-[#FF4240]" style="--value:87;" role="progressbar">87%</div>
+                <h1 class="text-xl font-bold">Prayer Facility</h1>
+                <p class="text-justify">"Prayer faculty enriches spiritual growth, fostering connection, solace, and
+                    guidance."</p>
+            </div>
+            <div
+                class="space-y-2 text-black w-4/12 text-center hover: shadow-xl hover:shadow-blue-300 p-5 cursor-pointer">
+                <div class="radial-progress text-[#49D293]" style="--value:95;" role="progressbar">95%</div>
+                <h1 class="text-xl font-bold">Experienced Coach</h1>
+                <p class="text-justify">"Experienced coach: skilled mentor, strategic leader, and catalyst for
+                    individual and team success in
+                    various fields of expertise."</p>
+            </div>
+            <div
+                class="space-y-2 text-black w-4/12 text-center hover: shadow-xl hover:shadow-blue-300 p-5 cursor-pointer">
+                <div class="radial-progress text-[#FFB546]" style="--value:90;" role="progressbar">90%</div>
+                <h1 class="text-xl font-bold">Senior Player</h1>
+                <p class="text-justify">
+                    "Senior player: seasoned, skilled, and a valuable asset to team dynamics."</p>
+            </div>
+            <div
+                class="space-y-2 text-black w-4/12 text-center hover: shadow-xl hover:shadow-blue-300 p-5 cursor-pointer">
+                <div class="radial-progress text-[#4C8DF1]" style="--value:80;" role="progressbar">80%</div>
+                <h1 class="text-xl font-bold">Program Sections</h1>
+                <p class="text-justify">
+                    "Program sections: distinct segments designed for focused learning and development in various
+                    aspects, ensuring a comprehensive and well-structured curriculum."
+                </p>
+            </div>
+
+        </div>
+
+        <!-- Program sec -->
+        <section class="container mx-auto">
+
+
+            <div class="text-black text-center w-6/12 mx-auto space-y-5 p-5">
+                <h1 class="text-3xl font-bold">Program Sections</h1>
+                <p>"Program sections: Segments designed to offer specialized learning experiences, ensuring a
+                    comprehensive and structured approach to skill development and knowledge acquisition."</p>
+            </div>
+
+            <div class="grid grid-flow-col gap-5 lg:grid-rows-2 sm: grid-rows-1
+         text-white text-justify">
+                <!-- grid img 1 -->
+                <div
+                    class="bg-[url('images/2.png')] bg-cover h-[338px] w-[630px] flex items-center justify-self-center ">
+                    <div class="bg-gradient-to-r from-[#13131880] to-[#13131880] h-[338px] w-[630px] rounded-2xl flex items-center">
+                        <div class="space-y-5 p-5 mt-16">
+                            <h1 class="text-3xl font-bold">Junior Program</h1>
+                            <p class="w-10/12">"Junior program: Tailored for young talents, fostering skills, teamwork,
+                                and
+                                character development in
+                                a supportive and engaging learning environment."
+                            </p><button class="btn btn-outline btn-error">Register Now!</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- grid img 3 -->
+                <div
+                    class="bg-[url('images/4.png')] bg-cover bg-no-repeat lg: h-[400px] lg:w-full flex items-center col-span-2">
+                    <div class="bg-gradient-to-r from-[#13131880] to-[#13131880]  lg: h-[400px] lg:w-full rounded-2xl flex items-center">
+                        <div class="space-y-5 p-5 mt-16">
+                            <h1 class="text-3xl font-bold">Professional Program</h1>
+                            <p class="w-10/12">"Professional program: Elevating skills, fostering expertise, and honing
+                                abilities for individuals seeking excellence and success in their respective fields."
+                            </p><button class="btn btn-outline btn-error">Register Now!</button>
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <!-- grid img 2 -->
+                <div
+                    class="bg-[url('images/3.png')] bg-cover h-[338px] w-[620px] flex items-center justify-self-center">
+                    <div class="bg-gradient-to-r from-[#13131880] to-[#13131880] h-[338px] w-[630px] rounded-2xl flex items-center">
+                        <div class="space-y-5 p-5 mt-16">
+                            <h1 class="text-3xl font-bold">Teenager Program</h1>
+                            <p class="w-10/12">"Teenager program: Nurturing growth, fostering skills, and building
+                                character for adolescents through engaging and purposeful activities in a supportive
+                                environment."
+                            </p><button class="btn btn-outline btn-error">Register Now!</button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
