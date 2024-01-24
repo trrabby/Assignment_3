@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/2.png" type="image/x-icon">
     <title>Hokey Club BD</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -38,7 +39,8 @@
                             <li><a>Contact</a></li>
                         </ul>
                     </div>
-                    <a class="btn btn-ghost text-3xl text-red-700 font-extrabold">Hokey Club BD</a>
+                    <a class="btn btn-ghost text-[1.1rem] lg:text-3xl text-black-700 font-extrabold"><span
+                            class="text-red-700">Hokey</span> Club BD</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal bg-white text-black  px-1">
@@ -49,7 +51,9 @@
                         <li><a>Contact</a></li>
                     </ul>
                 </div>
-                <div class="navbar-end">
+                <div class="navbar-end flex gap-4">
+                    <i class="fa fa-search cursor-pointer hover:scale-150 duration-500 hidden lg:flex"
+                        style="font-size:15px;color:rgb(15, 15, 20);"></i>
                     <a class="btn">Get Ticket</a>
                 </div>
             </div>
@@ -537,15 +541,43 @@
                 <p class="pb-5">Connect with us effortlessly. Whether you have questions, feedback, or inquiries, we're
                     here. Reach out and let's start a conversation.</p>
             </div>
+            <hr class="border-dashed h-5">
+            <!-- starting of form -->
+            <div class="flex gap-5">
+                <div class="border-2 border-gray-100 h-auto rounded-xl w-4/12 p-5">
+                    <div class="flex flex-col gap-4">
+                        <div class="p-6  h-auto rounded-xl bg-[#bced6d1a] space-y-3">
+                            <i class="fa fa-phone cursor-pointer hover:scale-150 hover:bg-yellow-400 duration-500"
+                                style="font-size:30px;color:rgb(77, 161, 44);"></i>
+                            <p>Phone Number: <br> <span class="text-black font-bold">(+62) 123-321-543</span></p>
+                        </div>
+                        <div class="p-6  h-auto rounded-xl bg-[#fddd5f1a]  space-y-3">
+                            <i class="fa fa-envelope cursor-pointer hover:scale-150 hover:bg-yellow-400 duration-500"
+                                style="font-size:30px;color:rgb(238, 217, 29);"></i>
+                            <p>Email:<br> <span class="text-black font-bold">hockeys@support.com</span></p>
+                        </div>
+                        <div class="p-6  h-auto rounded-xl bg-[#5f9cf31a]  space-y-3">
+                            <i class="fa fa-map cursor-pointer hover:scale-150 hover:bg-yellow-400 duration-500"
+                                style="font-size:30px;color:rgb(11, 145, 33);"></i>
+                            <p>Location:<br> <span class="text-black font-bold">152/1 Mohakhali Wireless Gate</span></p>
+                        </div>
+                      
+
+                    </div>
+
+                </div>
+
+                <div class="border-2 border-red-500 w-8/12"></div>
+            </div>
 
             <div class="my-10 p-5 bg-[#13131808] items-center text-center">
                 <p class="pb-5 text-xl text-black font-bold ">Social Media</p>
                 <div class="flex justify-center gap-4">
-                    <i class="fa fa-twitter cursor-pointer hover:scale-150 hover:bg-yellow-400 duration-500"
+                    <i class="fa fa-twitter cursor-pointer hover:scale-150 hover:bg-purple-400 duration-500"
                         style="font-size:20px;color:rgb(16, 14, 41);"></i>
                     <i class="fa fa-facebook cursor-pointer hover:scale-150 hover:bg-yellow-400 duration-500"
                         style="font-size:20px;color:rgb(16, 14, 41);"></i>
-                    <i class="fa fa-instagram cursor-pointer hover:scale-150 hover:bg-yellow-400 duration-500"
+                    <i class="fa fa-instagram cursor-pointer hover:scale-150 hover:bg-fuchsia-300 duration-500"
                         style="font-size:20px;color:rgb(16, 14, 41);"></i>
                     <i class="fa fa-git cursor-pointer hover:scale-150 hover:bg-yellow-400 duration-500"
                         style="font-size:20px;color:rgb(16, 14, 41);"></i>
@@ -559,31 +591,32 @@
     <footer class="footer p-10 bg-base-300 lg:flex lg:justify-evenly lg:flex-row lg:text-left 
     text-center items-start grid grid-flow-row grid-cols-2">
         <nav class="lg:w-6/12 w-full space-y-2 col-span-2 ">
-            <header class="footer-title font-extrabold text-2xl text-[white] mx-auto lg:text-left w-full ">Get In Touch</header>
+            <header class="footer-title font-extrabold text-2xl text-[white] mx-auto lg:text-left w-full ">Get In Touch
+            </header>
             <p>Connect with us effortlessly. Whether you have questions, feedback, or inquiries, we're
                 here. Reach out and let's start a conversation.</p>
-               
+
             <div class="flex gap-4 items-center w-6/12 mx-auto lg:mx-0 justify-center lg:justify-start">
                 <i class="fa fa-envelope cursor-pointer hover:scale-150 hover:bg-yellow-400 duration-500"
-                style="font-size:15px;color:rgb(242, 241, 252);"></i>
+                    style="font-size:15px;color:rgb(242, 241, 252);"></i>
                 <p>hockeys@support.com</p>
-            </div>                
-            <div class="flex gap-4 items-center w-6/12 mx-auto lg:mx-0 justify-center lg:justify-start">
+            </div>
+            <div class="flex gap-4 items-center lg:w-6/12 mx-auto lg:mx-0 justify-center lg:justify-start">
                 <i class="fa fa-phone cursor-pointer hover:scale-150 hover:bg-yellow-400 duration-500"
-                style="font-size:15px;color:rgb(242, 241, 252);"></i>
+                    style="font-size:15px;color:rgb(242, 241, 252);"></i>
                 <p>(+62) 123-321-543</p>
-            </div>                
+            </div>
         </nav>
         <nav class="lg:w-3/12 w-full items-start  justify-center">
-                <header class="footer-title">Company</header>
-                <a class="link link-hover">About us</a>
-                <a class="link link-hover">Leadership</a>
-                <a class="link link-hover">Career</a>
-                <a class="link link-hover">News & Articles</a>
-                <a class="link link-hover">Legal Notice</a>
+            <header class="footer-title">Company</header>
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Leadership</a>
+            <a class="link link-hover">Career</a>
+            <a class="link link-hover">News & Articles</a>
+            <a class="link link-hover">Legal Notice</a>
         </nav>
-        
-        
+
+
         <nav class="lg:w-3/12 w-full  justify-center ">
             <header class="footer-title">Support</header>
             <a class="link link-hover">Help Center</a>
